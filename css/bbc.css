@@ -1,0 +1,1201 @@
+* {
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: black;
+    height: 2.5rem;
+    width: 118rem;
+    float: left;
+    text-decoration: none;
+}
+
+header li {
+
+
+    float: left;
+    height: 40px;
+    width: 7%;
+    border-right: 1px solid white;
+    color: white;
+    list-style: none;
+    margin-bottom: 2px;
+}
+
+header ul {
+
+    float: left;
+    width: 40%;
+    margin: 1px;
+    height: 39px;
+    /* padding-left: -122px; */
+    margin: 2px 7px;
+}
+
+main>section, main section+section section {
+    width: 47%;
+    height: 609px;
+
+    float: left;
+    margin: 1%;
+}
+
+main>section+section section {
+    height: 12rem;
+}
+
+footer>h3 {
+    color: grey;
+    font-size: 3em;
+    font-weight: 600;
+    border-left: 4px solid red;
+    margin-left: 21px;
+    padding-left: 13px;
+    margin-top: 25px;
+}
+
+section>img {
+    float: left;
+
+    height: 18.9rem;
+    width: 32%;
+    padding-left: 13px;
+    margin: -32px 8px;
+}
+
+main>section:nth-child(1) {
+    background-image: url(https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220325144908-trump-orlando-0226.jpg);
+    background-size: 772px 614px;
+    background-repeat: no-repeat;
+}
+
+main h1 {
+    color: dimgray;
+    float: left;
+    width: 32rem;
+    padding-left: 2rem;
+    font-size: 2em;
+    margin: 2px;
+    padding-top: 32px;
+}
+
+main h2 {
+    float: right;
+    font-size: 1.5em;
+    padding-top: 3rem;
+    padding-right: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0.1rem;
+    color: dimgray;
+}
+
+header {
+    float: left;
+    width: 101rem;
+    height: 41px;
+}
+
+.logo {
+    background: black;
+    width: 6rem;
+    height: 45px;
+    float: left;
+    ;
+    margin: -2px 10px;
+    margin-top: 0px;
+    border-right: 1px solid white;
+}
+
+main {
+    float: left;
+    height: 32rem;
+    width: 118rem;
+    background: lightgray;
+}
+
+footer {
+    float: left;
+    width: 118rem;
+    height: 25rem;
+    border-bottom: 2px solid gray;
+}
+
+li.sign {
+    width: 13rem;
+    /* height: 24px; */
+}
+
+.sign img {
+    width: 15%;
+    height: 19px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 9px;
+}
+
+header form {
+    height: 41px;
+    float: left;
+    width: 12%;
+    margin-left: 18px;
+}
+
+
+header a {
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    float: left;
+    padding-top: 11px;
+    padding-left: 13px;
+}
+
+li.more {
+    margin-left: 2px;
+    width: 6%;
+    float: left;
+    border: none;
+}
+
+.sign a {
+    padding-left: 4px;
+}
+
+input[type="text"] {
+    height: 29px;
+    width: 105%;
+    margin-top: 6px;
+}
+
+span.us {
+    float: left;
+    border-left: 3px solid red;
+    font-weight: 300;
+    margin-left: 15px;
+    color: white;
+    ;
+}
+
+.leftsec p {
+    float: left;
+    color: white;
+    font-size: 19px;
+    width: 86%;
+    height: 46px;
+    padding-right: 321px;
+    margin: 10px;
+}
+
+
+span.trump {
+    font-size: 40px;
+    border: none;
+    float: left;
+    margin-top: 246px;
+    color: white;
+    padding-left: 5px;
+}
+
+section.rightsec {
+    width: 42rem;
+    height: 26rem;
+    float: right;
+    margin: 1px;
+}
+
+section.leftsec {
+    width: 55%;
+    height: 387px;
+    float: left;
+    margin: 5px 11px;
+    background-size: 905px 414px;
+    background-image: url(https://content.fortune.com/wp-content/uploads/2016/04/525783312.jpg?resize=750,500);
+    background-repeat: no-repeat;
+    margin-left: 34px;
+}
+
+.rightsec p {
+    color: white;
+    font-size: 19px;
+    margin-top: 91px;
+    margin-left: 12px;
+    padding-right: 66px;
+}
+
+.rightsec span {
+    color: white;
+    border-left: 2px solid blue;
+    padding-left: 3px;
+}
+
+section.claim {
+    background-image: url(https://www.snopes.com/tachyon/2016/11/Putin-and-trump.jpg);
+    background-repeat: no-repeat;
+    background-size: 317px 185px;
+}
+
+section.tiller {
+    background-image: url(https://insideclimatenews.org/wp-content/uploads/2016/12/GettyImages-466009324.jpg);
+    background-repeat: no-repeat;
+    background-size: 320px 185px;
+}
+
+section.oxford {
+
+    background-image: url(https://i.guim.co.uk/img/media/dcb0fee186850e5eaf5eebcd6d0589614f830e6e/0_233_3500_2101/master/3500.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=4b06629f2c3f570d0bdff15599909ba8);
+    background-repeat: no-repeat;
+    background-size: 317px 189px;
+}
+
+section.office {
+
+    background-image: url(https://www.openaccessgovernment.org/wp-content/uploads/2019/08/dreamstime_s_139611634.jpg);
+    background-repeat: no-repeat;
+    background-size: 302px 185px;
+}
+
+
+div {
+    width: 55rem;
+    height: 27rem;
+}
+
+li.marker {
+    width: 2%;
+    border-right: 1px solid white;
+    list-style-type: disclosure-open;
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.office p {
+    margin-top: 106px;
+}
+
+.office span {
+    float: left;
+    margin: -11px 16px;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-device-width :1200px) {
+    * {
+        box-sizing: border-box;
+
+    }
+
+    nav {
+        background-color: black;
+        height: 42px;
+        width: 72.9rem;
+        float: left;
+        text-decoration: none;
+    }
+
+    header li {
+
+
+        float: left;
+        height: 40px;
+        width: 7%;
+        border-right: 1px solid white;
+        color: white;
+        list-style: none;
+        margin-bottom: 2px;
+    }
+
+    header ul {
+
+        float: left;
+        width: 40%;
+        margin: 1px;
+        height: 39px;
+        /* padding-left: -122px; */
+        margin: 2px 7px;
+    }
+
+    main>section, main section+section section {
+        width: 47%;
+        height: 609px;
+
+        float: left;
+        margin: 1%;
+    }
+
+    main>section+section section {
+        height: 186px;
+    }
+
+    footer>h3 {
+        color: grey;
+        font-size: 36px;
+        font-weight: 600;
+        border-left: 4px solid red;
+        margin-left: 21px;
+        padding-left: 13px;
+        margin-top: 25px;
+    }
+
+    section>img {
+        float: left;
+
+        height: 307px;
+        width: 31%;
+        padding-left: 13px;
+        margin: -24px 8px;
+    }
+
+    main>section:nth-child(1) {
+        background-image: url(https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220325144908-trump-orlando-0226.jpg);
+        background-size: 772px 614px;
+        background-repeat: no-repeat;
+    }
+
+    main h1 {
+        color: dimgray;
+        float: left;
+        width: 49%;
+        padding-left: 154px;
+        font-size: 1.5em;
+        margin: 2px;
+        padding-top: 32px;
+    }
+
+    main h2 {
+        color: dimgray;
+        float: left;
+        width: 45%;
+        padding-left: 13rem;
+        padding-right: 0rem;
+        font-size: 1.5em;
+        margin: 0rem;
+        padding-top: 2.16rem;
+    }
+
+    header {
+        float: left;
+        width: 100%;
+        height: 41px;
+    }
+
+    .logo {
+        background: black;
+        width: 9%;
+        height: 45px;
+        float: left;
+        ;
+        margin: -2px 10px;
+        margin-top: 0px;
+        border-right: 1px solid white;
+    }
+
+    main {
+        float: left;
+        height: 49rem;
+        width: 72.95rem;
+        background: lightgray;
+    }
+
+    footer {
+        float: left;
+        width: 76.2rem;
+        height: 25rem;
+        border-bottom: 2px solid gray;
+    }
+
+    li.sign {
+        width: 10%;
+        /* height: 24px; */
+    }
+
+    .sign img {
+        width: 15%;
+        height: 19px;
+        float: left;
+        margin-top: 12px;
+        margin-left: 9px;
+    }
+
+    header form {
+        height: 41px;
+        float: left;
+        width: 12%;
+        margin-left: 18px;
+    }
+
+
+    header a {
+        font-weight: 600;
+        font-size: 17px;
+        color: white;
+        float: left;
+        padding-top: 11px;
+        padding-left: 13px;
+    }
+
+    li.more {
+        margin-left: 2px;
+        width: 6%;
+        float: left;
+        border: none;
+    }
+
+    .sign a {
+        padding-left: 4px;
+    }
+
+    input[type="text"] {
+        height: 29px;
+        width: 100%;
+        margin-top: 0.3rem;
+    }
+
+    span.us {
+        float: left;
+        border-left: 3px solid red;
+        font-weight: 300;
+        margin-left: 15px;
+        color: white;
+        ;
+    }
+
+    .leftsec p {
+        float: left;
+        color: white;
+        font-size: 19px;
+        width: 86%;
+        height: 46px;
+        padding-right: 5rem;
+        margin: 10px;
+    }
+
+    h1:nth-child(2) {
+        float: right;
+
+        font-size: 24px;
+        padding-left: 12em;
+    }
+
+    span.trump {
+        font-size: 40px;
+        border: none;
+        float: left;
+        margin-top: 14rem;
+        color: white;
+        padding-left: 5px;
+    }
+
+    section.rightsec {
+        width: 93%;
+        height: 14rem;
+        float: right;
+        margin: 2px;
+    }
+
+    section.leftsec {
+        width: 76%;
+        height: 26rem;
+        float: left;
+        margin: 1em 1em;
+        background-size: 905px 414px;
+        background-image: url(https://content.fortune.com/wp-content/uploads/2016/04/525783312.jpg?resize=750,500);
+        background-repeat: no-repeat;
+        margin-left: 149px;
+    }
+
+    .rightsec p {
+        color: white;
+        font-size: 19px;
+        margin-top: 91px;
+        margin-left: 2px;
+        padding-right: 66px;
+    }
+
+    .rightsec span {
+        color: white;
+        border-left: 2px solid blue;
+        padding-left: 3px;
+    }
+
+    section.claim {
+        background-image: url(https://www.snopes.com/tachyon/2016/11/Putin-and-trump.jpg);
+        background-repeat: no-repeat;
+        background-size: 317px 185px;
+        float: left;
+        width: 20rem;
+    }
+
+    section.tiller {
+        background-image: url(https://insideclimatenews.org/wp-content/uploads/2016/12/GettyImages-466009324.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px 185px;
+        width: 20rem;
+    }
+
+    section.oxford {
+
+        background-image: url(https://i.guim.co.uk/img/media/dcb0fee186850e5eaf5eebcd6d0589614f830e6e/0_233_3500_2101/master/3500.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=4b06629f2c3f570d0bdff15599909ba8);
+        background-repeat: no-repeat;
+        background-size: 317px 189px;
+        width: 22rem;
+    }
+
+    section.office {
+
+        background-image: url(https://www.openaccessgovernment.org/wp-content/uploads/2019/08/dreamstime_s_139611634.jpg);
+        background-repeat: no-repeat;
+        background-size: 302px 185px;
+        display: none;
+    }
+
+
+    div {
+        width: 100%;
+        height: 26rem;
+        background-size: 206em;
+    }
+
+    li.marker {
+        width: 2%;
+        border-right: 1px solid white;
+        list-style-type: disclosure-open;
+        padding-top: 12px;
+        font-size: 15px;
+    }
+
+    .office p {
+        margin-top: 106px;
+    }
+
+    .office span {
+        float: left;
+        margin: 7px 17px;
+    }
+
+    .hamburger {
+        diplay: none;
+    }
+
+}
+
+@media screen and (max-device-width : 820px) {
+    * {
+        box-sizing: border-box;
+
+    }
+
+    nav {
+        background-color: black;
+        height: 2.7rem;
+        width: 50.9rem;
+        float: left;
+        text-decoration: none;
+    }
+
+    header li {
+
+
+        float: left;
+        height: 40px;
+        width: 7%;
+        border-right: 1px solid white;
+        color: white;
+        list-style: none;
+        margin-bottom: 2px;
+    }
+
+    header ul {
+
+        float: left;
+        width: 40%;
+        margin: 1px;
+        height: 39px;
+        /* padding-left: -122px; */
+        margin: 2px 7px;
+    }
+
+    main>section, main section+section section {
+        width: 47%;
+        height: 609px;
+
+        float: left;
+        margin: 1%;
+    }
+
+    main>section+section section {
+        height: 186px;
+    }
+
+    footer>h3 {
+        color: grey;
+        font-size: 3em;
+        font-weight: 600;
+        border-left: 4px solid red;
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: 39rem;
+        margin-top: 25px;
+        float: left;
+    }
+
+    section>img {
+        float: left;
+
+        height: 11rem;
+        width: 16.9rem;
+        padding-left: 1rem;
+        margin: 1px 0px;
+    }
+
+    main>section:nth-child(1) {
+        background-image: url(https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220325144908-trump-orlando-0226.jpg);
+        background-size: 772px 614px;
+        background-repeat: no-repeat;
+    }
+
+    main h1 {
+        color: dimgray;
+        float: left;
+        width: 49%;
+        padding-left: 30px;
+        font-size: 1.4em;
+        margin: 2px;
+        padding-top: 32px;
+    }
+
+    main h2 {
+        color: dimgray;
+        float: left;
+        width: 49%;
+        padding-left: 10rem;
+        font-size: 1.4em;
+        margin: 2px;
+        padding-top: 32px;
+    }
+
+    header {
+        float: left;
+        width: 100%;
+        height: 41px;
+    }
+
+    .logo {
+        background: black;
+        width: 9%;
+        height: 45px;
+        float: left;
+        ;
+        margin: -2px 10px;
+        margin-top: 0px;
+        border-right: 1px solid white;
+    }
+
+    main {
+        float: left;
+        height: 43rem;
+        width: 51rem;
+        background: lightgray;
+    }
+
+    footer {
+        float: left;
+        width: 50.9rem;
+        height: 20rem;
+        border-bottom: 2px solid gray;
+    }
+
+    li.sign {
+        width: 10%;
+        /* height: 24px; */
+    }
+
+    .sign img {
+        width: 15%;
+        height: 0.9rem;
+        float: left;
+        margin-top: 12px;
+        margin-left: 9px;
+    }
+
+    header form {
+        height: 41px;
+        float: left;
+        width: 12%;
+        margin-left: 1rem;
+    }
+
+
+    header a {
+        font-weight: 600;
+        font-size: 0.8em;
+        color: white;
+
+        padding-top: 0.8rem;
+        padding-left: 0.4rem;
+    }
+
+    li.more {
+        margin-left: 2px;
+        width: 6%;
+        float: left;
+        border: none;
+    }
+
+    .sign a {
+        padding-left: 4px;
+    }
+
+    input[type="text"] {
+        height: 2rem;
+        width: 95%;
+        margin-top: 6px;
+    }
+
+    span.us {
+        float: left;
+        border-left: 3px solid red;
+        font-weight: 300;
+        margin-left: 15px;
+        color: white;
+        ;
+    }
+
+    .leftsec p {
+        float: left;
+        color: white;
+        font-size: 19px;
+        width: 49rem;
+        height: 3rem;
+        padding-right: 321px;
+        margin: 10px;
+    }
+
+    h1:nth-child(2) {
+        float: right;
+        padding-left: 0rem;
+        font-size: 1.4em;
+        padding-left: 10rem;
+    }
+
+    span.trump {
+        font-size: 40px;
+        border: none;
+        float: left;
+        margin-top: 246px;
+        color: white;
+        padding-left: 5px;
+    }
+
+    section.rightsec {
+        width: 50rem;
+        height: 400px;
+        float: right;
+        margin: 1px;
+        float: left;
+    }
+
+    section.leftsec {
+        width: 49rem;
+        height: 387px;
+        float: left;
+        margin: 5px 11px;
+        background-size: 905px 414px;
+        background-image: url(https://content.fortune.com/wp-content/uploads/2016/04/525783312.jpg?resize=750,500);
+        background-repeat: no-repeat;
+        margin-left: 1rem;
+    }
+
+    .rightsec p {
+        color: white;
+        font-size: 1.2em;
+        margin-top: 6rem;
+        margin-left: 0;
+        padding-right: 10px;
+    }
+
+    .rightsec span {
+        color: white;
+        border-left: 2px solid blue;
+        padding-left: 3px;
+    }
+
+    section.claim {
+        background-image: url(https://www.snopes.com/tachyon/2016/11/Putin-and-trump.jpg);
+        background-repeat: no-repeat;
+        background-size: 317px 185px;
+        height: 12rem;
+        width: 15.5rem;
+        float: left;
+    }
+
+    section.tiller {
+        background-image: url(https://insideclimatenews.org/wp-content/uploads/2016/12/GettyImages-466009324.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px 185px;
+        float: left;
+        width: 15.5rem;
+    }
+
+    section.oxford {
+
+        background-image: url(https://i.guim.co.uk/img/media/dcb0fee186850e5eaf5eebcd6d0589614f830e6e/0_233_3500_2101/master/3500.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=4b06629f2c3f570d0bdff15599909ba8);
+        background-repeat: no-repeat;
+        background-size: 317px 189px;
+        float: left;
+        width: 16rem;
+    }
+
+    section.office {
+
+        background-image: url(https://www.openaccessgovernment.org/wp-content/uploads/2019/08/dreamstime_s_139611634.jpg);
+        background-repeat: no-repeat;
+        background-size: 302px 185px;
+    }
+
+
+    div {
+        width: 45rem;
+        height: 24rem;
+    }
+
+    li.marker {
+        width: 2%;
+        border-right: 1px solid white;
+        list-style-type: disclosure-open;
+        padding-top: 12px;
+        font-size: 15px;
+    }
+
+    .office p {
+        margin-top: 106px;
+    }
+
+    .office span {
+        float: left;
+        margin: 7px 17px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}
+
+@media screen and (max-device-width : 360px) {
+    * {
+        box-sizing: border-box;
+
+    }
+
+    nav {
+        background-color: black;
+        height: 2.7rem;
+        width: 27.97rem;
+        float: left;
+        text-decoration: none;
+    }
+
+    header li {
+
+
+        float: left;
+        height: 40px;
+        width: 7%;
+        border-right: 1px solid white;
+        color: white;
+        list-style: none;
+        margin-bottom: 2px;
+        display: none;
+    }
+
+    header ul {
+
+        float: left;
+        width: 40%;
+        margin: 1px;
+        height: 39px;
+        /* padding-left: -122px; */
+        margin: 2px 7px;
+    }
+
+    main>section, main section+section section {
+        width: 47%;
+        height: 609px;
+
+        float: left;
+        margin: 1%;
+    }
+
+    main>section+section section {
+        height: 186px;
+    }
+
+    footer>h3 {
+        color: grey;
+        font-size: 4em;
+        font-weight: 600;
+        border-left: 4px solid red;
+        margin-left: 8.5rem;
+        padding-left: 0em;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        float: left;
+    }
+
+    section>img {
+
+
+        height: 19.5rem;
+        width: 27.5rem;
+        padding-left: 0rem;
+        margin: 0.5em 0.1em;
+    }
+
+    main>section:nth-child(1) {
+        background-image: url(https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220325144908-trump-orlando-0226.jpg);
+        background-size: 772px 614px;
+        background-repeat: no-repeat;
+    }
+
+    main h1 {
+        color: dimgray;
+        float: left;
+        width: 91%;
+        padding-left: 2rem;
+        font-size: 2.3em;
+        margin: 2px;
+        padding-top: 24px;
+    }
+
+    main h2 {
+        color: dimgray;
+        float: left;
+        width: 21rem;
+        padding-left: 6rem;
+        font-size: 1.4em;
+        margin: 1rem 0rem;
+        padding-top: 4px;
+    }
+
+    header {
+        float: left;
+        width: 100%;
+        height: 41px;
+    }
+
+    .logo {
+        background: black;
+        width: 10rem;
+        height: 3rem;
+        float: right;
+        margin-right: 9rem;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+
+    main {
+        float: left;
+        height: 47rem;
+        width: 27.95rem;
+        background: lightgray;
+    }
+
+    footer {
+        float: left;
+        width: 28rem;
+        height: 61rem;
+        border-bottom: 2px solid gray;
+    }
+
+    li.sign {
+        width: 10%;
+        /* height: 24px; */
+    }
+
+    .sign img {
+        width: 15%;
+        height: 0.9rem;
+        float: left;
+        margin-top: 12px;
+        margin-left: 9px;
+    }
+
+    header form {
+        height: 41px;
+        float: left;
+        width: 12%;
+        margin-left: 1rem;
+    }
+
+
+    header a {
+        font-weight: 600;
+        font-size: 0.8em;
+        color: white;
+
+        padding-top: 0.8rem;
+        padding-left: 0.4rem;
+    }
+
+    li.more {
+        margin-left: 2px;
+        width: 6%;
+        float: left;
+        border: none;
+    }
+
+    .sign a {
+        padding-left: 4px;
+    }
+
+    input[type="text"] {
+        height: 2rem;
+        width: 95%;
+        margin-top: 6px;
+        display: none;
+    }
+
+    span.us {
+        float: left;
+        border-left: 3px solid red;
+        font-weight: 300;
+        margin-left: 0rem;
+        font-size: 1em;
+        color: white;
+    }
+
+    .leftsec p {
+        float: left;
+        color: white;
+        font-size: 1em;
+        width: 20rem;
+        height: 3rem;
+        padding-right: 0rem;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    h1:nth-child(2) {
+        float: left;
+        padding-left: 0rem;
+        font-size: 1.3em;
+        padding-left: 0rem;
+        width: 14rem;
+    }
+
+    span.trump {
+        font-size: 1em;
+        border: none;
+        float: left;
+        margin-top: 246px;
+        color: white;
+        padding-left: 0px;
+    }
+
+    section.rightsec {
+        width: 24rem;
+        height: 13rem;
+        float: right;
+        margin: 1px;
+        float: left;
+    }
+
+    section.leftsec {
+        width: 24.5rem;
+        height: 23rem;
+        float: left;
+        margin: 0px 0px;
+        background-size: 386px 388px;
+        background-image: url(https://content.fortune.com/wp-content/uploads/2016/04/525783312.jpg?resize=750,500);
+        background-repeat: no-repeat;
+        margin-left: 2rem;
+    }
+
+    .rightsec p {
+        color: white;
+        font-size: 1em;
+        margin-top: 6rem;
+        margin-left: 0;
+        padding-right: 0;
+        width: 12rem;
+    }
+
+    .rightsec span {
+        color: white;
+        border-left: 2px solid blue;
+        padding-left: 3px;
+    }
+
+    section.claim {
+        background-image: url(https://www.snopes.com/tachyon/2016/11/Putin-and-trump.jpg);
+        background-repeat: no-repeat;
+        background-size: 317px 185px;
+        height: 12.6rem;
+        margin-left: 4rem;
+        margin-top: 0.5rem;
+        width: 20.5rem;
+        float: left;
+    }
+
+    section.tiller {
+        background-image: url(https://insideclimatenews.org/wp-content/uploads/2016/12/GettyImages-466009324.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px 185px;
+        float: left;
+        width: 11rem;
+        display: none;
+    }
+
+    section.oxford {
+
+        background-image: url(https://i.guim.co.uk/img/media/dcb0fee186850e5eaf5eebcd6d0589614f830e6e/0_233_3500_2101/master/3500.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=4b06629f2c3f570d0bdff15599909ba8);
+        background-repeat: no-repeat;
+        background-size: 317px 189px;
+        float: left;
+        width: 16rem;
+        display: none;
+    }
+
+    section.office {
+
+        background-image: url(https://www.openaccessgovernment.org/wp-content/uploads/2019/08/dreamstime_s_139611634.jpg);
+        background-repeat: no-repeat;
+        background-size: 302px 185px;
+    }
+
+
+    div {
+        width: 26.8rem;
+        height: 17rem;
+    }
+
+    li.marker {
+        width: 2%;
+        border-right: 1px solid white;
+        list-style-type: disclosure-open;
+        padding-top: 12px;
+        font-size: 15px;
+    }
+
+    .office p {
+        margin-top: 106px;
+    }
+
+    .office span {
+        float: left;
+        margin: 7px 17px;
+    }
+
+    .hamburger {
+        height: 2.6rem;
+        width: 3rem;
+        float: left;
+        display: block;
+    }
+
+}
